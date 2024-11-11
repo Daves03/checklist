@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid darkgreen;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid darkgreen; 
+}
+
+th {
+    background-color: darkgreen; 
+    color: white; 
+}
+
+#navbar #student-label {
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 64px; 
+    left: 11px; 
+}
+
+#navbar #student-name {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 11px; 
+    text-align: center; 
+
+}
+
+
+#navbar #student-number {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 134px; 
+    left: 11px; 
+}
+#navbar #title {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: serif;
+    color: black;
+    text-align: center; 
+    padding: 1px;
+    transition: 0.4s;
+    left: 40%;
+    position: absolute;
+    
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: darkgreen;
+    padding: 90px 1px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+  }
+  
+  #navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 5px;
+  }
+
+
+  #navbar a:hover {
+    background-color: #6be944;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #000000;
+    color: white;
+  }
+  
+  #navbar-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px     10px !important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
+
+  .devider1 {
+    margin-top: 200px;
+    padding: 50px 50px;
+    font-size: 18px;
+  }
+  .devider{
+    margin-top: 10px;
+    padding: 50px 50px;
+    font-size: 18px;
+  }
+  .stats-container {
+    text-align: center;
+    margin-top: 10px; 
+    padding: 5x; 
+    border: 1px solid #ccc; 
+}
+
+.search-container {
+ margin: 10px auto;
+  padding: 5px;
+  background-color: #fff;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.search-form label {
+  margin-right: 10px;
+}
+.search-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.search-form button {
+  padding: 10px 20px;
+  background-color: darkgreen;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-form button:hover {
+  background-color: #6be944;
+}
+.year-heading {
+  text-align: center;
+  margin-top: 50px; 
+  font-size: 24px; 
+}
+
